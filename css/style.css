@@ -33,6 +33,12 @@ p a:hover {
 	font-weight: bold;
 }
 
+.block-pic {
+	float: left;
+	width: 50%;
+	display: block;
+}
+
 
 
 
