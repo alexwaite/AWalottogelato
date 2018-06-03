@@ -1,24 +1,25 @@
 // Jquery marquee
 
 $(document).ready(function(){
-    
+
     $('.owl-carousel').owlCarousel({
+        items:1,
         loop:true,
         margin:10,
+        autoplay: true,
+        autoplaySpeed: true,
+        animateIn: "fadeIn",
+        animateOut: "fadeOut",
         responsiveClass:true,
         responsive:{
             0:{
-                items:1,
-                nav:true
+                nav:false
             },
             600:{
-                items:3,
                 nav:false
             },
             1000:{
-                items:5,
-                nav:true,
-                loop:false
+                nav:false
             }
         }
     });
