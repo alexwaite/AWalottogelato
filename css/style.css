@@ -11,7 +11,7 @@ header {
 	padding: 36px 0 0 0;
 	background-color: #FFAAAA;
 	font-family: 'Dosis', sans-serif;
-	font-size: 18px;
+	font-size: 36px;
 }
 
 header a {
@@ -20,7 +20,7 @@ header a {
 	float: left;
 	color: #000;
 	text-decoration: none;
-	line-height: 44px;
+	line-height: 72px;
 }
 
 #logo {
