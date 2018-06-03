@@ -47,7 +47,7 @@ p a {
 }
 
 p a:hover {
-	color: green;
+	color: #009B90;
 	font-weight: bold;
 }
 .welcome{
@@ -75,7 +75,9 @@ p a:hover {
 	background-size: cover;
 	background-position: center center;
 	border: 10px solid #FFAAAA;
+	margin-bottom: 30px;
 }
+
 .block-pic.two{
 	background-image: url("../Images/gelatto team.jpg");
 }
@@ -95,19 +97,36 @@ p a:hover {
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	padding: 10px;
+	padding-top: 14px;
 	margin: 0 auto;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
+	line-height: 75px;
+}
+
+.middle:hover {
+	width: 115px;
+	height: 115px;
+	font-size: 20px;
+	padding-top: 20px;
 }
 
 .middle a {
 	text-decoration: none;
-	color: #004C46;
+	color: #EA6057;
 }
 
 .middle a:hover {
+	color: #009B90;
+}
+
+.more-text {
+	background: #A7D79A;
+	padding: 60px;
 	font-size: 20px;
-	color: #00CDBE;
+	display: block;
+	width: 100%;
+
 }
 
 input[type=text], select, textarea {
