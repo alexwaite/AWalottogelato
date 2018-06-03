@@ -58,6 +58,10 @@ p a:hover {
 	font-size: 20px;
 }
 
+.welcome h1 {
+	color: #EA6057;
+}
+
 .block-pic{
 /*	float: left;*/
 	width: 350px;
@@ -121,12 +125,28 @@ p a:hover {
 }
 
 .more-text {
+	padding: 30px;
+}
+
+.footer {
 	background: #A7D79A;
-	padding: 60px;
+	padding: 30px;
 	font-size: 20px;
 	display: block;
 	width: 100%;
+	height: 200px;
+}
 
+#bottomleft {
+	float: left;
+	display: block;
+	width: 30%;
+	text-align: left;
+}
+#bottomright {
+	float: right;
+	display: block;
+	text-align: right;
 }
 
 input[type=text], select, textarea {
