@@ -1,10 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	border: solid 1px black;
+	width: 35%;
+	float: left;
+}
+
 .main-wrap {
 	padding: 0 0 0 35%;
 	width: 100%;
 	float: left;
 	display: block;
 }
+
 .body {
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 }
+
+
+
