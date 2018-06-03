@@ -1,6 +1,5 @@
-* {
-	box-sizing: border-box;
-}
+* {box-sizing: border-box;}
+html,body{margin:0;}
 
 header {
 	position: fixed;
@@ -34,6 +33,3 @@ header a {
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 }
-
-
-
