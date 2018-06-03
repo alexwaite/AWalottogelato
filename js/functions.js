@@ -8,16 +8,18 @@ $(document).ready(function(){
         margin:10,
         autoplay: true,
         autoplaySpeed: true,
+        animateIn: "fadeIn",
+        animateOut: "fadeOut",
         responsiveClass:true,
         responsive:{
             0:{
-                nav:true
+                nav:false
             },
             600:{
-                nav:true
+                nav:false
             },
             1000:{
-                nav:true
+                nav:false
             }
         }
     });
