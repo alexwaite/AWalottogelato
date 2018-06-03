@@ -3,11 +3,12 @@ html,body{margin:0;}
 
 header {
 	position: fixed;
+	text-align: center;
 	top: 0;
 	width: 35%;
 	height: 100%;
 	float: left;
-	padding: 36px 0 0 24px ;
+	padding: 36px 0 0 0;
 	background-color: #FFAAAA;
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
@@ -19,7 +20,12 @@ header a {
 	float: left;
 	color: #000;
 	text-decoration: none;
-	line-height: 36px;
+	line-height: 44px;
+}
+
+#logo {
+	margin: auto;
+	display: block;
 }
 
 .main-wrap {
