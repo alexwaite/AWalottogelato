@@ -5,9 +5,22 @@
 header {
 	position: fixed;
 	top: 0;
-	border: solid 1px black;
 	width: 35%;
+	height: 100%;
 	float: left;
+	padding: 36px 0 0 24px ;
+	background-color: #FFAAAA;
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+}
+
+header a {
+	display: block;
+	width: 100%;
+	float: left;
+	color: #000;
+	text-decoration: none;
+	line-height: 36px;
 }
 
 .main-wrap {
