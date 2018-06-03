@@ -8,7 +8,6 @@ header {
 	width: 25%;
 	height: 100%;
 	float: left;
-	padding: 36px 0 0 0;
 	background-color: #FFAAAA;
 	font-family: 'Dosis', sans-serif;
 	font-size: 36px;
@@ -20,12 +19,28 @@ header a {
 	float: left;
 	color: #000;
 	text-decoration: none;
-	line-height: 72px;
+	padding: 20px 0 20px 0;
+	-webkit-transition: background 500ms ease-in-out;
+-moz-transition: background 500ms ease-in-out;
+-ms-transition: background 500ms ease-in-out;
+-o-transition: background 500ms ease-in-out;
+transition: background 500ms ease-in-out;
+}
+
+header a:hover {
+	background-color: #ff5b5b;
 }
 
 #logo {
 	margin: auto;
 	display: block;
+	padding: 40px 0 0 0;
+	transition: transform 500ms;
+}
+
+#logo:hover {
+	background-color: #FFAAAA;
+	transform: scale(1.1);
 }
 
 .main-wrap {
@@ -56,6 +71,10 @@ p a:hover {
 	display: block;
 	padding: 60px;
 	font-size: 20px;
+}
+
+.welcome h1 {
+	color: #EA6057;
 }
 
 .block-pic{
@@ -121,12 +140,28 @@ p a:hover {
 }
 
 .more-text {
+	padding: 30px;
+}
+
+.footer {
 	background: #A7D79A;
-	padding: 60px;
+	padding: 30px;
 	font-size: 20px;
 	display: block;
 	width: 100%;
+	height: 200px;
+}
 
+#bottomleft {
+	float: left;
+	display: block;
+	width: 30%;
+	text-align: left;
+}
+#bottomright {
+	float: right;
+	display: block;
+	text-align: right;
 }
 
 input[type=text], select, textarea {
