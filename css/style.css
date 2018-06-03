@@ -117,3 +117,10 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
+.carousel-height {
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
