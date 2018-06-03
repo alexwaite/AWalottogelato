@@ -13,13 +13,13 @@ $(document).ready(function(){
         responsiveClass:true,
         responsive:{
             0:{
-                nav:true
+                nav:false
             },
             600:{
-                nav:true
+                nav:false
             },
             1000:{
-                nav:true
+                nav:false
             }
         }
     });
