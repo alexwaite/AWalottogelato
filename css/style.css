@@ -5,7 +5,7 @@ header {
 	position: fixed;
 	text-align: center;
 	top: 0;
-	width: 35%;
+	width: 25%;
 	height: 100%;
 	float: left;
 	padding: 36px 0 0 0;
@@ -29,7 +29,7 @@ header a {
 }
 
 .main-wrap {
-	padding: 0 0 0 35%;
+	padding: 0 0 0 25%;
 	width: 100%;
 	float: left;
 	display: block;
@@ -39,7 +39,6 @@ header a {
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 	text-align: center;
-	margin: 0 0 0 5px;
 }
 
 p a {
@@ -51,31 +50,43 @@ p a:hover {
 	color: green;
 	font-weight: bold;
 }
-
-.block-pic1 {
+.welcome{
+	width: 100%;
 	float: left;
-	width: 50%;
-	height: 300px;
 	display: block;
+	padding: 60px;
+	font-size: 20px;
+}
+
+.block-pic{
+/*	float: left;*/
+	width: 350px;
+	height: 350px;
+	margin:0 30px;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	display:inline;
+	display:inline-block;
+	*zoom:1;
+
+	position: relative;
 	background-image: url("../Images/flavors.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	border: 10px solid #FFAAAA;
 }
-
-.block-pic2 {
-	float: left;
-	width: 50%;
-	height: 300px;
-	display: block;
+.block-pic.two{
 	background-image: url("../Images/gelatto team.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
 }
-
 .middle {
-	background-color: rgba(249,249,249,.5);
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: rgba(249,249,249,.75);
 	font-color: #FFAAAA;
 	font-weight: bold;
 	-webkit-transform: translate(-50%, -50%);
@@ -85,6 +96,18 @@ p a:hover {
 	transform: translate(-50%, -50%);
 	padding: 10px;
 	margin: 0 auto;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.middle a {
+	text-decoration: none;
+	color: #004C46;
+}
+
+.middle a:hover {
+	font-size: 20px;
+	color: #00CDBE;
 }
 
 input[type=text], select, textarea {
