@@ -3,11 +3,12 @@ html,body{margin:0;}
 
 header {
 	position: fixed;
+	text-align: center;
 	top: 0;
 	width: 35%;
 	height: 100%;
 	float: left;
-	padding: 36px 0 0 24px ;
+	padding: 36px 0 0 0;
 	background-color: #FFAAAA;
 	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
@@ -19,7 +20,12 @@ header a {
 	float: left;
 	color: #000;
 	text-decoration: none;
-	line-height: 36px;
+	line-height: 44px;
+}
+
+#logo {
+	margin: auto;
+	display: block;
 }
 
 .main-wrap {
@@ -81,4 +87,33 @@ p a:hover {
 	margin: 0 auto;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: turquoise;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    
+    padding: 20px;
+}
 
