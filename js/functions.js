@@ -8,6 +8,8 @@ $(document).ready(function(){
         margin:10,
         autoplay: true,
         autoplaySpeed: true,
+        animateIn: "fadeIn",
+        animateOut: "fadeOut",
         responsiveClass:true,
         responsive:{
             0:{
