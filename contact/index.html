@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Alotto Gelatto, World Famous Gelato in Rome, NY</title>
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
 
+<head>
+    <title>Alotto Gelatto, World Famous Gelato in Rome, NY</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        Alotto Gelato
+    </header>
+    <div class="main-wrap">
+        <div class="body">
 
-	<header>
-		Alotto Gelato
-	</header>
+            <h1>Alotto Gelatto</h1>
 
-	<div class="main-wrap">
-		<div class="body">
-			<h1>Alotto Gelatto</h1>
-			This is the body.
-		</div>
-	</div>
+            <h2>Phone: (123) 456-789</h2>
+            <h3>Cotact Form</h3>
+            <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <p>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </p>
 
+                    <p>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                	</p>
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
