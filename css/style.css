@@ -10,3 +10,17 @@ header {
 	float: left;
 }
 
+.main-wrap {
+	padding: 0 0 0 35%;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.body {
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+}
+
+
+
