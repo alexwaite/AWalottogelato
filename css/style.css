@@ -13,6 +13,19 @@ header {
 	font-size: 36px;
 }
 
+header {
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 25%;
+	max-width: 25%;
+	height: 100%;
+	float: left;
+	background-color: #FFAAAA;
+	font-family: 'Dosis', sans-serif;
+	font-size: 36px;
+}
+
 header a {
 	display: block;
 	width: 100%;
@@ -21,25 +34,28 @@ header a {
 	text-decoration: none;
 	padding: 20px 0 20px 0;
 	-webkit-transition: background 500ms ease-in-out;
--moz-transition: background 500ms ease-in-out;
--ms-transition: background 500ms ease-in-out;
--o-transition: background 500ms ease-in-out;
-transition: background 500ms ease-in-out;
+	-moz-transition: background 500ms ease-in-out;
+	-ms-transition: background 500ms ease-in-out;
+	-o-transition: background 500ms ease-in-out;
+	transition: background 500ms ease-in-out;
 }
 
-header a:hover {
+.navlink:hover {
 	background-color: #ff5b5b;
 }
 
 #logo {
-	margin: auto;
-	display: block;
+	*zoom: 1;
+	display: inline;
+	display: inline-block;
 	padding: 40px 0 0 0;
+}
+
+#logo img {
 	transition: transform 500ms;
 }
 
-#logo:hover {
-	background-color: #FFAAAA;
+#logo:hover img {
 	transform: scale(1.1);
 }
 
